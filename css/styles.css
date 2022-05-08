@@ -1,0 +1,155 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --hero-text-color: #ffffff;
+    --accent-color: #2196F3;
+    --primare-bg-color: #FFFFFF;
+    --button-bg-color: #F5F4FA;
+    --accent-bg-color: #2196F3;
+}
+
+
+.page {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--primary-text-color);
+    background-color: var(--primare-bg-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+      
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.logo-web {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+/* site-nav */
+.site-nav .link {
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: var(--title-text-color);
+
+}
+
+/* .site-nav .link.current {
+    color: var(--accent-color);
+} */
+
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+     
+    color: var(--accent-color);
+}
+
+.auth-nav .link {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: var(--title-text-color);
+
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+
+    color: var(--accent-color);
+}
+
+/* Styles index.html */
+
+/* Hero */
+.hero-title {
+    background-color: #2F303A;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+
+}
+
+.section-title {
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: var(--title-text-color);
+}
+/* Features */
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: var(--title-text-color);
+}
+
+/* Button */
+.hero-buttom {
+    color: var(--button-bg-color);
+    background-color: var(--accent-bg-color);
+}
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--button-bg-color);
+}
+
+.button:hover
+.button:focus {
+    color: var(--hero-text-color);
+        background-color: var(--accent-bg-color);
+}
+
+
+/* Styles portfolio.html */
+
+
+
+
+/* button {
+    cursor: pointer;
+} */
